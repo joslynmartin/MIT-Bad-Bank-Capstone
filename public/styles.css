@@ -31,9 +31,13 @@
 
 .list-group-item.make-center {
   text-align: center;
-  color: white;
-  background-color: black;
+  color: teal;
+  background-color: white;
   font-size: 25px;
+}
+
+.list-group-item.data {
+  color: blue;
 }
 
 .feature-coming-soon {

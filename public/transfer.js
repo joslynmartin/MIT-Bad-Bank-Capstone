@@ -26,7 +26,7 @@ function Transfer() {
       <div className="hi-msg">Hi, {ctx.user}</div>
       <Card
         txtcolor="white"
-        bgcolor="danger"
+        bgcolor="secondary"
         header="Transfer"
         status={status}
         body={
@@ -92,7 +92,7 @@ function Transfer() {
            </span>
           <br />
           <br />
-          Send to Bad Bank Account User
+          Transfer to
           <br />
           <input  
             type="input"
@@ -105,7 +105,7 @@ function Transfer() {
             }}
             />
             <br />
-          Transfer Amount
+          Amount
           <br />
           <input
             type="input"

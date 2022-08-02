@@ -14,7 +14,7 @@ function Login() {
     
     <div className="login-card">
     <Card
-      txtcolor="black"
+      txtcolor="white"
       bgcolor="success"
       header="Login"
       status={status}

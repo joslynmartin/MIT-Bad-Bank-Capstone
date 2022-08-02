@@ -50,14 +50,14 @@ function Balance() {
     <>
     {!loaded ? <div>{spinner}</div> : (
       <>
-      <div className="hi-msg">Hi, {ctx.user}</div> : <div></div>
+      <div className="hi-msg">Welcome, {ctx.user}</div> : <div></div>
       <Card
-        txtcolor="black"
+        txtcolor="white"
         bgcolor="info"
         header="Balance"
         body={
           <>
-            <ul className="list-group list-group-flush make-center bg-dark">
+            <ul className="list-group list-group-flush make-center bg-light">
               <li className="list-group-item make-center">
                 Account balance: ${balance}
               </li>

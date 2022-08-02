@@ -27,8 +27,8 @@ function Home() {
     <>
     
     <Card
-      txtcolor="black"
-      bgcolor="light"
+      txtcolor="white"
+      bgcolor="dark"
       header="Home"
       title="Welcome to the bank!"
       text="Login or create a new account to use our features."

@@ -5,7 +5,7 @@ let db = null;
 MongoClient.connect(url, {}, function(err, client){
     console.log('connected successfully to db server');
     const dbName = 'badbank';
-    const db = client.db(dbName);
+    db = client.db(dbName);
 });
 
 // create user account
