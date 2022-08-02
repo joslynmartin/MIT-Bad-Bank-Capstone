@@ -23,7 +23,7 @@ function Transfer() {
     
     return (
       <>
-      <div className="hi-msg">Hi, {ctx.user}</div>
+      <div className="hi-msg">Welcome, {ctx.user}</div>
       <Card
         txtcolor="white"
         bgcolor="secondary"
