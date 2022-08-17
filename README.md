@@ -1,4 +1,4 @@
-MIT Bad Bank Capstone
+#MIT Bad Bank Capstone
 
 This was my final project for my bootcamp through the Massachusetts Institute of Technology. It is a bad bank because it has no security but you can create an account, login, deposit, withdraw, transfer, and check your balance/user data that is stored using MongoDB.
 
